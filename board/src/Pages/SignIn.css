@@ -1,0 +1,96 @@
+.main-section {
+    display: grid;
+    grid-template-rows: auto;
+    height: 100vh;
+    grid-template-columns: 35% 65%;
+}
+
+.section-A1 {
+    background-color: black;
+    padding-top: 260px;
+}
+
+.section-B {
+    background-color: #F5F5F5;
+    padding-top: 65px;
+}
+
+.heading {
+    text-align: left;
+    padding-left: 300px;
+    line-height: 25px;
+}
+
+.sub-heading {
+    text-align: left;
+    padding-left: 300px;
+    padding-bottom: 35px;
+    line-height: 1px;
+}
+
+#board {
+    color: white;
+    font-size: 72px;
+    font-weight: 700;
+    font: Montserrat;
+    color: #F5F5F5;
+
+}
+
+.sign-top {
+    display: flex;
+    margin: auto;
+    margin-left: 295px;
+    gap: 10px;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: #858585;
+}
+
+#form {
+    background-color: white;
+    width: 410px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+#form p {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.forgot {
+    color: #346BD4;
+}
+
+.register {
+    color: #346BD4;
+}
+
+#form input {
+    font-size: 16px;
+    border: none;
+    background-color: #F5F5F5;
+    padding: 10px 155px 10px 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#form button {
+    background-color: black;
+    color: white;
+    padding: 10px 160px;
+    border-radius: 10px;
+    font-size: 16px;
+}
