@@ -25,7 +25,7 @@ export const data = {
 };
 
 const PieChart = () => {
-  return (<div style={{width:'200px',padding:'0px 75px 25px 55px'}}>
+  return (<div style={{width:'200px',padding:'0px 65px 25px 55px'}}>
     <Pie data={data} />
   </div>
 

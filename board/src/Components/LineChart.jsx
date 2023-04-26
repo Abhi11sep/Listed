@@ -52,7 +52,7 @@ export const data = {
     datasets: [
         {
             label: 'Guest',
-            data: [200, 400, 200, 300, 220, 450],
+            data: [200, 400, 200, 300, 220, 460],
             borderColor: '#E9A0A0',
             backgroundColor: 'rgba(255, 99, 132, 0.5)',
             yAxisID: 'y',
@@ -71,8 +71,7 @@ export const data = {
 
 const LineChart = () => {
     return (
-        <div style={{ backgroundColor: 'white' , borderRadius:'15px',
-        margin:'15px  auto',width:'1000px',height:'500px',padding:'15px 45px'}}>
+        <div>
             <Line options={options} data={data} />
         </div>
     )

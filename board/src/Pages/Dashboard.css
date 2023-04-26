@@ -1,21 +1,22 @@
 #mainB {
-    background-color: #DDDDDD;
+    background-color: #eeecec;
     padding: 25px;
     display: grid;
     grid-template-rows: auto;
-    height: 100vh;
     grid-template-columns: 20% 80%;
 }
 
-.section-A {
+.section-AX {
+    background-color: black;
     border-radius: 30px;
     text-align: left;
     padding-left: 55px;
-    border: 1px solid red;
+    height: 1150px;
+    /* border: 1px solid red; */
 }
 
 #head {
-    margin-top: -200px;
+    margin-top: 50px;
     color: white;
     font-size: 50px;
 }
@@ -27,34 +28,98 @@
 }
 
 #listlast {
-    padding-bottom: 135px;
+    padding-bottom: 550px;
 }
 
 .section-B {
-    background-color: #DDDDDD;
+    background-color: #eeecec;
+    margin-top: 0px;
+    padding-top: 30px;
 }
+
+.B2 {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    width: 92%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#B21 {
+    background-color: #DDEFE0;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.B_para {
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+    line-height: 10px;
+}
+
+.B_head {
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+    line-height: 10px;
+}
+
+#B22 {
+    background-color: #F4ECDD;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#B23 {
+    background-color: #EFDADA;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#B24 {
+    background-color: #DEE0EF;
+    border-radius: 20px;
+    padding: 10px;
+}
+
 
 .B1 {
     display: flex;
-    gap: 250px;
+    gap: 0px;
+    margin: auto;
+    width: 92%;
+}
+
+#B1_sec2 {
+    padding-left: 600px;
+    padding-top: 0px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
 }
 
 #search {
     height: 25px;
     border: none;
-    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 10px;
 }
 
 #profile_pic {
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 
 .B4 {
+    background-color: #eeecec;
     display: flex;
     margin: auto;
+    margin-top: 40px;
     margin-bottom: 25px;
+
 }
 
 #B4_1a {
@@ -64,8 +129,18 @@
 #B4_1 {
     background-color: white;
     border-radius: 15px;
-    width: 50%;
+    width: 45%;
     margin-left: 40px;
+}
+
+#B4_2 {
+    background-color: white;
+    border-radius: 15px;
+    width: 40%;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 15px 0px 15px 55px;
+
 }
 
 .pieline {
@@ -74,8 +149,217 @@
     margin-bottom: 30px;
 }
 
+.pieline1 {
+    line-height: 10px;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    border-left: 10px solid #9BDD7C;
+}
+
+.pieline2 {
+    line-height: 10px;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    border-left: 10px solid #6972C3;
+}
+
 #prohead {
     text-align: left;
     padding-left: 55px;
     padding-top: 15px;
+}
+
+#prohead1 {
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+
+.B3 {
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px auto;
+    width: 1000px;
+    height: 500px;
+    padding: 15px 45px;
+}
+
+
+@media screen and (min-width:650px) and (max-width:1024px) {
+    .B2 {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        width: 92%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    #B1_sec2 {
+        padding-left: 15%;
+        padding-top: 0px;
+        display: flex;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .B3 {
+        background-color: white;
+        border-radius: 15px;
+        margin: 15px auto;
+        width: 450px;
+        height: 220px;
+        padding: 15px 45px;
+    }
+
+    .section-AX {
+        background-color: black;
+        border-radius: 30px;
+        text-align: left;
+        padding-left: 15px;
+        height: 1370px;
+    }
+
+    #mainB {
+        background-color: #eeecec;
+        padding: 25px;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 25% 75%;
+    }
+
+    .B4 {
+        display: block;
+    }
+
+    #B4_1 {
+        background-color: white;
+        border-radius: 15px;
+        width: 95%;
+        margin-left: 20px;
+    }
+
+    #B4_2 {
+        background-color: white;
+        border-radius: 15px;
+        width: 85%;
+        margin-left: 20px;
+        margin-right: 40px;
+        margin-top: 40px;
+        padding: 15px 0px 15px 55px;
+
+    }
+
+    #listlast {
+        padding-bottom: 800px;
+    }
+}
+
+
+@media screen and (min-width:320px) and (max-width:650px) {
+    .B2 {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding-left: 10px;
+        width: 95%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    #head {
+        display: none;
+
+    }
+
+    #B1_sec2 {
+        padding-left: 15%;
+        padding-top: 0px;
+        display: flex;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .B3 {
+        background-color: white;
+        border-radius: 15px;
+        margin: 0px auto;
+        width: 300px;
+        height: 220px;
+        padding: 0px 5px;
+    }
+
+    .section-AX {
+        background-color: black;
+        border-radius: 30px;
+        text-align: left;
+        padding-left: 15px;
+        height: 50px;
+    }
+
+    #mainB {
+        background-color: #eeecec;
+        padding: 25px;
+        display: block;
+        /* grid-template-rows: auto;
+        grid-template-columns: 0% 100%; */
+    }
+
+    .B4 {
+        display: block;
+    }
+
+    #B4_1 {
+        background-color: white;
+        border-radius: 15px;
+        width: 95%;
+        margin-left: 5px;
+    }
+
+    #B1_sec2 {
+        display: none;
+    }
+
+    #B4_2 {
+        background-color: white;
+        border-radius: 15px;
+        width: 85%;
+        margin-left: 0px;
+        margin-right: 40px;
+        margin-top: 40px;
+        padding: 15px 0px 15px 35px;
+    }
+    #B4_1a{
+        display: block;
+        padding-left: 15px;
+        padding-bottom: 5px;
+    }
+    .prohe{
+        line-height: 20px;
+    }
+
+    #listlast {
+        padding-bottom: 800px;
+    }
+
+    .listitems span {
+        display: none;
+    }
+    .section-AX {
+        background-color: black;
+        border-radius: 30px;
+        text-align: left;
+        display: flex;
+        gap: 20px;
+        padding-left: 30px;
+        margin-top: 0px;
+        height: 70px;
+    }
+    .listitems {
+        padding-top: 10px;
+    }
 }

@@ -1,9 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { GoogleLoginButton, AppleLoginButton } from "react-social-login-buttons";
 import { LoginSocialApple, LoginSocialGoogle } from "reactjs-social-login";
 import './SignIn.css'
+import { useNavigate } from 'react-router-dom';
 
 const SignIn = () => {
+  const navigate=useNavigate()
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+
+  const go = () => {
+    if (email === "" && password === "") {
+      alert("Please Enter E-mail and password")
+    } else if (email === "") {
+      alert("Please Enter E-mail")
+    } else if (password === "") {
+      alert("Please Enter password")
+    } else {
+      navigate("/dashboard")
+    }
+  }
 
   return (
     <div className='main-section'>
@@ -14,7 +30,7 @@ const SignIn = () => {
         <h1 className='heading'>Sign In</h1>
         <p className='sub-heading'>Sign in to your account</p>
         <div className='sign-top'>
-          <div>
+          <div id='sign-top-1'>
             <LoginSocialGoogle
               client_id={"123214448374-cu1k37v3h1vnflp23rhuajnccco4lvbq.apps.googleusercontent.com"}
               scope="openid profile email"
@@ -22,6 +38,7 @@ const SignIn = () => {
               access_type="offline"
               onResolve={({ provider, data }) => {
                 console.log(provider, data);
+                navigate("/dashboard")
               }}
               onReject={(err) => {
                 console.log(err);
@@ -31,7 +48,7 @@ const SignIn = () => {
             </LoginSocialGoogle>
           </div>
 
-          <div>
+          <div  id='sign-top-2'>
             <LoginSocialApple
               client_id={"123214448374-cu1k37v3h1vnflp23rhuajnccco4lvbq.apps.googleusercontent.com"}
               scope="openid profile email"
@@ -51,17 +68,17 @@ const SignIn = () => {
 
         <div id='form'>
           <p>E-mail address</p>
-          <input type='text' placeholder='Enter E-mail here' />
+          <input type='text' placeholder='Enter E-mail here' value={email} onChange={(e)=>setEmail(e.target.value)} />
           <p>Password</p>
-          <input type='password' placeholder='Enter password here' />
+          <input type='password' placeholder='Enter password here' value={password}  onChange={(e)=>setPassword(e.target.value)}/>
           <p className='forgot'>Forgot password? </p>
-          <button>Sign In</button>
+          <button onClick={go}>Sign In</button>
         </div>
         <div>
 
         </div>
 
-        <p>Don't have an account? <a className='register'>Register here </a></p>
+        <p id='last_p'>Don't have an account? <a className='register'>Register here </a></p>
 
       </div>
     </div>

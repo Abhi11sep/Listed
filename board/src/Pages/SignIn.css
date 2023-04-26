@@ -94,3 +94,131 @@
     border-radius: 10px;
     font-size: 16px;
 }
+
+
+@media screen and (min-width:650px) and (max-width:1024px) {
+    #form {
+        background-color: white;
+        width: 410px;
+        margin: auto;
+        border-radius: 10px;
+        padding: 15px 5px;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+
+    .sign-top {
+        display: block;
+        margin: auto;
+        margin-left: 200px;
+        gap: 20px;
+    }
+
+    .sign-top div {
+        margin-bottom: 5px;
+        padding-top: 2px;
+    }
+
+    #sign-top-1 {
+        margin-left: -60px;
+        width: 75%;
+
+    }
+
+    #sign-top-2 {
+        margin-left: -60px;
+        width: 75%;
+    }
+
+    .heading {
+        text-align: left;
+        padding-left: 70px;
+        line-height: 25px;
+    }
+
+    .sub-heading {
+        text-align: left;
+        padding-left: 70px;
+        padding-bottom: 35px;
+        line-height: 1px;
+    }
+}
+
+
+@media screen and (min-width:320px) and (max-width:650px) {
+    .section-A1 {
+        display: none;
+    }
+
+    .main-section {
+        display: block;
+    }
+
+
+    #form {
+        background-color: white;
+        width: 310px;
+        margin: auto;
+        border-radius: 10px;
+        padding: 15px 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    #form input {
+        font-size: 16px;
+        border: none;
+        background-color: #F5F5F5;
+        padding: 10px 75px 10px 10px;
+        border-radius: 10px;
+        text-align: left;
+    }
+
+    #form button {
+        background-color: black;
+        color: white;
+        padding: 10px 120px;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+
+    .sign-top {
+        display: block;
+        margin: auto;
+        margin-left: 200px;
+        gap: 20px;
+    }
+
+    .sign-top div {
+        margin-bottom: 5px;
+        padding-top: 2px;
+    }
+
+    #sign-top-1 {
+        margin-left: -130px;
+        width: 140%;
+
+    }
+
+    #sign-top-2 {
+        margin-left: -130px;
+        width: 140%;
+    }
+
+    .heading {
+        text-align: left;
+        padding-left: 70px;
+        line-height: 25px;
+    }
+
+    .sub-heading {
+        text-align: left;
+        padding-left: 70px;
+        padding-bottom: 35px;
+        line-height: 1px;
+    }
+    #last_p{
+        padding-bottom: 100px;
+    }
+}
