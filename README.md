@@ -4,6 +4,10 @@
 **Introduction**
 ---
 This is the Listed company Assignment to clone the Figma layout into responsive and functionable website.
+functionalities:
+1) Login using Google Auth API.
+2) Used Chart.js using JSON API data.
+
 ##  Tech-stack used
   
    ```
