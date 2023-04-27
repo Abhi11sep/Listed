@@ -11,7 +11,7 @@
     border-radius: 30px;
     text-align: left;
     padding-left: 55px;
-    height: 1150px;
+    height: 1160px;
     /* border: 1px solid red; */
 }
 
@@ -186,6 +186,33 @@
     padding: 15px 45px;
 }
 
+.dot1 {
+    height: 15px;
+    width: 15px;
+    background-color: #98D89E;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.dot2 {
+    height: 15px;
+    width: 15px;
+    background-color: #F6DC7D;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.dot3 {
+    height: 15px;
+    width: 15px;
+    background-color: #EE8484;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+}
+
 
 @media screen and (min-width:650px) and (max-width:1024px) {
     .B2 {
@@ -220,7 +247,7 @@
         border-radius: 30px;
         text-align: left;
         padding-left: 15px;
-        height: 1370px;
+        height: 1390px;
     }
 
     #mainB {
@@ -333,12 +360,14 @@
         margin-top: 40px;
         padding: 15px 0px 15px 35px;
     }
-    #B4_1a{
+
+    #B4_1a {
         display: block;
         padding-left: 15px;
         padding-bottom: 5px;
     }
-    .prohe{
+
+    .prohe {
         line-height: 20px;
     }
 
@@ -349,6 +378,7 @@
     .listitems span {
         display: none;
     }
+
     .section-AX {
         background-color: black;
         border-radius: 30px;
@@ -359,6 +389,7 @@
         margin-top: 0px;
         height: 70px;
     }
+
     .listitems {
         padding-top: 10px;
     }
