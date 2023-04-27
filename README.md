@@ -19,7 +19,7 @@ React JS, CSS, Material UI, Chartjs, JSON, Google Auth API.
 | 2 | Dashboard page with line and pie chart Stats |
 
 
-  **Sample Page Images**
+  **Sample Page Images for Computer**
   ---
   
   **1) SignIn Page**
@@ -27,29 +27,37 @@ React JS, CSS, Material UI, Chartjs, JSON, Google Auth API.
 <img src="https://github.com/Abhi11sep/Listed/blob/master/pageA_full.jpg" alt="Screenshot-20221219-014333" border="0">
   
   
-  **2) User Login Page**
+  **2) Dashboard Page**
    ---
-<img src="https://github.com/Abhi11sep/ambiguous-heat-2587/blob/master/account.png"></img>
+<img src="https://github.com/Abhi11sep/Listed/blob/master/pageB_1_full.jpg"></img>
+<img src="https://github.com/Abhi11sep/Listed/blob/master/full_pageB_2.jpg"></img>
 
-  **3) Products Page**
+  **Sample Page Images for tablet**
   ---
-<img src="https://github.com/Abhi11sep/ambiguous-heat-2587/blob/master/product.png"></img>
+  
+  **1) SignIn Page**
+  ---
+<img src="https://github.com/Abhi11sep/Listed/blob/master/pageA_tab.jpg" alt="Screenshot-20221219-014333" border="0">
+  
+  
+  **2) Dashboard Page**
+   ---
+<img src="https://github.com/Abhi11sep/Listed/blob/master/tab_PageB_top.jpg"></img>
+<img src="https://github.com/Abhi11sep/Listed/blob/master/tab_pageB_.png"></img>
 
-  **4) Product Display Page**
+  **Sample Page Images for mobile**
   ---
-<img src="https://github.com/Abhi11sep/ambiguous-heat-2587/blob/master/sinfgleProduct.png"></img>
-
-  **7) Wishlist Page**
+  
+  **1) SignIn Page**
   ---
-<img src="https://github.com/Abhi11sep/ambiguous-heat-2587/blob/master/wishlist.png"></img>
-
-  **5) Cart Page**
-  ---
-<img src="https://github.com/Abhi11sep/ambiguous-heat-2587/blob/master/cart.png"></img>
-
-  **6) Payment Page**
-  ---
-<img src="https://github.com/Abhi11sep/ambiguous-heat-2587/blob/master/payment.png"></img>
+<img src="https://github.com/Abhi11sep/Listed/blob/master/pageA_full_mob.jpg" alt="Screenshot-20221219-014333" border="0">
+  
+  
+  **2) Dashboard Page**
+   ---
+<img src="https://github.com/Abhi11sep/Listed/blob/master/pageB_1_mob.jpg"></img>
+<img src="https://github.com/Abhi11sep/Listed/blob/master/pageB_2_mob.jpg"></img>
+<img src="https://github.com/Abhi11sep/Listed/blob/master/mob_pageB_4.jpg"></img>
 
 
 
