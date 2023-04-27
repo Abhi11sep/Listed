@@ -18,9 +18,16 @@ React JS, CSS, Material UI, Chartjs, JSON, Google Auth API.
 | 1 | User signup and Login |
 | 2 | Dashboard page with line and pie chart Stats |
 
+**Gif for Computer**
+---
+
+<div>&nbsp;<img align="center" width="600px" alt="picture of coder" src="https://github.com/Abhi11sep/Listed/blob/master/listed_AdobeExpress.gif"/></div>
+</br>
+
+---
 
 
-<span>&nbsp;<img align="left" width="300px" alt="picture of coder" src="https://github.com/Abhi11sep/Listed/blob/master/listed_AdobeExpress.gif"/></span>
+
 
 
   **Sample Page Images for Computer**
