@@ -1,6 +1,3 @@
-# Listed
-Company's Assignment to clone the Figma layout with functionalities
-
 # Welcome to Dashboard
 ---
 
@@ -25,9 +22,9 @@ React JS, CSS, Material UI, Chartjs, JSON, Google Auth API.
   **Sample Page Images**
   ---
   
-  **1) Home Page**
+  **1) SignIn Page**
   ---
-  <a href="https://ibb.co/pXrvSWs"><img src="https://github.com/Abhi11sep/ambiguous-heat-2587/blob/master/home.png" alt="Screenshot-20221219-014333" border="0"></a>
+<img src="https://github.com/Abhi11sep/Listed/blob/master/pageA_full.jpg" alt="Screenshot-20221219-014333" border="0">
   
   
   **2) User Login Page**
